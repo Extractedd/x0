@@ -1,7 +1,7 @@
 //// Wild circles #2.
 String title=  "Click for another circle.";
 String subtitle=  "Press any key to erase.";
-String author=  "Bruce Alan Martin";
+String author=  "Dymon Harris";
 
 // GLOBAL VARIABLES //
 float x,y;
@@ -12,8 +12,8 @@ void setup() {
   size(500, 500);
   x=  width/2;
   y=  height/2;
-  w=  80;          // width of ellipse.
-  h=  80;          // height of ellipse
+  w=  20;          // width of ellipse.
+  h=  20;          // height of ellipse
 }
 
 // Next frame. //
@@ -37,8 +37,8 @@ void mousePressed() {
 //  Handle keyboard //
 void keyPressed() {
   // Erase everything, change size & color. //
-  background( random(255), random(255), random(255) );
+  background(200);
   fill( random(255), random(255), random(255) );
-  w=  int( random(50,150) );
-  h=  int( random(50,150) );
+  w=  int( random(50,100) );
+  h=  int( random(50,100) );
 }
