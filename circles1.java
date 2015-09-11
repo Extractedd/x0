@@ -12,11 +12,16 @@ void setup() {
 
 // Next frame:  draw three circles. //
 void draw() {
+  fill(120);
   ellipse(x, y, 80, 80);
-  ellipse(x+60, y+60, 40, 40);
-  ellipse(x+90, y+90, 20, 20);
+  fill(0,200,0);
+  ellipse(x-60, y+60, 40, 40);
+  fill(0);
+  ellipse(x-90, y+90, 20, 20);
  
   // Move them???? //--              x=  x + 2;  y=  y + 1;
+  
   // Insert BREAK here ^
+  
   // to uncomment the above code,
 }
